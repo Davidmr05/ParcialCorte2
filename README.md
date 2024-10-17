@@ -95,14 +95,6 @@ Punto 3:
 
 La ejecucion con el input de ejemplo deberia ser asi: 
 
-line 1:9 no viable alternative at input 'f(x)={(2'
-
-line 2:9 no viable alternative at input 'f(x)={(3'
-
-line 3:17 mismatched input '>=' expecting '>'
-
-line 4:14 mismatched input '>=' expecting '>'
-
 La transformada de fourier para esta funcion sigue la forma: 1/(jπf)
 
 La transformada de fourier para esta funcion sigue la forma: 1/(jw) + (jπf)
