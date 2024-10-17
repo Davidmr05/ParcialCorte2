@@ -62,7 +62,11 @@ EN el caso de que el .py genere error tendriamos que usar un entorno virtual de 
 
  La ejecucion con el input de ejemplo deberia ser asi: 
 
- 
+El resultado de la operación es: 5.0 + 3.0j
+El resultado de la operación es: 8.0 + 1.0j
+El resultado de la operación es: 1.77 -0.15j
+El resultado de la operación es: 2.0 -14.0j
+
 
 Punto 2: 
 
