@@ -30,7 +30,7 @@ Generar Archivos de ANTLR
 Una vez que ANTLR esté configurado, compila la gramática utilizando el siguiente comando en la terminal:
 
 
-antlr4 -Dlanguage=Python3 OpComplejas.g4
+antlr4 -Dlanguage=Python3 -visitor OpComplejas.g4
 
 Este comando generará los archivos necesarios (OpComplejasLexer.py, OpComplejasParser.py, y OpComplejasVisitor.py) a partir del archivo OpComplejas.g4.
 Ejecutar el Programa
@@ -60,4 +60,34 @@ EN el caso de que el .py genere error tendriamos que usar un entorno virtual de 
 
  pip install antlr4-python3-runtime
 
+ La ejecucion con el input de ejemplo deberia ser asi: 
+
+ 
+
 Punto 2: 
+
+  - antlr4 -Dlanguage=Python3 -visitor function.g4 
+    
+  - python3 main.py
+
+La ejecucion con el input de ejemplo deberia ser asi: 
+
+['a', 'a', 'e', 'a']
+[1, 8, 27, 64]
+[4, 2]
+
+Punto 3: 
+
+  - antlr4 -Dlanguage=Python3 -visitor fourier.g4
+    
+  - python3 main.py
+
+La ejecucion con el input de ejemplo deberia ser asi: 
+
+line 1:9 no viable alternative at input 'f(x)={(2'
+line 2:9 no viable alternative at input 'f(x)={(3'
+line 3:17 mismatched input '>=' expecting '>'
+line 4:14 mismatched input '>=' expecting '>'
+La transformada de fourier para esta funcion sigue la forma: 1/(jπf)
+La transformada de fourier para esta funcion sigue la forma: 1/(jw) + (jπf)
+
