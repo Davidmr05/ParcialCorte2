@@ -14,7 +14,9 @@ Configura ANTLR:
 Asegúrate de que ANTLR esté configurado correctamente. En tu terminal, agrega lo siguiente a tu CLASSPATH:
 
 export CLASSPATH=".:/path/to/antlr-4.13.2-complete.jar:$CLASSPATH"
+
 alias antlr4='java -jar /path/to/antlr-4.13.2-complete.jar'
+
 alias grun='java org.antlr.v4.gui.TestRig'
 
 Reemplaza /path/to/ con la ruta donde descargaste antlr-4.13.2-complete.jar.
@@ -63,8 +65,11 @@ EN el caso de que el .py genere error tendriamos que usar un entorno virtual de 
  La ejecucion con el input de ejemplo deberia ser asi: 
 
 El resultado de la operación es: 5.0 + 3.0j
+
 El resultado de la operación es: 8.0 + 1.0j
+
 El resultado de la operación es: 1.77 -0.15j
+
 El resultado de la operación es: 2.0 -14.0j
 
 
@@ -77,7 +82,9 @@ Punto 2:
 La ejecucion con el input de ejemplo deberia ser asi: 
 
 ['a', 'a', 'e', 'a']
+
 [1, 8, 27, 64]
+
 [4, 2]
 
 Punto 3: 
@@ -89,9 +96,14 @@ Punto 3:
 La ejecucion con el input de ejemplo deberia ser asi: 
 
 line 1:9 no viable alternative at input 'f(x)={(2'
+
 line 2:9 no viable alternative at input 'f(x)={(3'
+
 line 3:17 mismatched input '>=' expecting '>'
+
 line 4:14 mismatched input '>=' expecting '>'
+
 La transformada de fourier para esta funcion sigue la forma: 1/(jπf)
+
 La transformada de fourier para esta funcion sigue la forma: 1/(jw) + (jπf)
 
