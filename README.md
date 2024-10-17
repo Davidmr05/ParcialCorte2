@@ -1,4 +1,4 @@
-# Parcial Segundo Corte
+# Parcial Segundo Corte - David Esteban Martinez RIos
 
 Punto 1:
 
